@@ -1,4 +1,40 @@
-<!DOCTYPE html>
+						MEUS COMENTARIOS
+						
+EMAIL = smj200m.ds2015@gmail.com
+www.unidescmateriasdecontrucao.com.br"
+
+========================================================================================================================================
+->PAGINA INICIAL<-
+*
+("OBSERCAÇÃO: ")
+========================================================================================================================================
+->PRODUTOS<-
+*
+("OBSERCAÇÃO: ")
+========================================================================================================================================
+->SOBRE<-
+*Visão 
+*Missão
+*Valores
+("OBSERCAÇÃO: ")
+========================================================================================================================================
+->CONTATO<-
+*Nome 
+*E-mail 
+*Telefone 
+*Cidade
+*Mensagem 
+*Mapa 
+("OBSERCAÇÃO: ")
+========================================================================================================================================
+->PARCEIROS<-
+*
+("OBSERCAÇÃO: ")
+========================================================================================================================================
+
+			               INICIO DO MEU CÓDIGO USANDO PHP HTML CSS 
+
+<!DOCTYPE html= ""/> 
 <html lang="pt-br">
   <head>
     <title>Unidesc Materiais de Construção</title>
@@ -12,25 +48,33 @@
 <meta name="author" content="Elus Websites" />
 <meta name="webmaster" content="Elus Websites" />
 <meta name="ROBOTS" content="ALL" />
-<meta HTTP-EQUIV="Reply-to" content="tecnologodas@gmail.com.br" />
-<base href="http://www.unidescmateriasdecontrucao.com.br" />
+<meta HTTP-EQUIV="Reply-to" content="smj200m.ds2015@gmail.com " />
+<base href="http://www.o.com.br" />
 <meta property="og:title" content="Unidesc Materiais de Construção" />
 <meta property="og:description" content="Unidesc Materiais de Construção" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.unidescmateriasdecontrucao.com.br" />
 <meta property="og:image" content="/imagem.png" />  (Colocar a Imagem)
   </head>
-  <body>
+  <body><section class="access">
+	<div class="row">
     Aqui vai o código HTML que fará seu site aparecer.
 	<nav id="menu">
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Produtos</a></li>
-        <li><a href="#">Missão</a></li>
-        <li><a href="#">Links</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#"><Contato/a></li>
+        <li><a href="#">Parceiros</a></li>
     </ul>
 </nav>
+
+
+
+
+
+
+
 
 
 #menu ul {
