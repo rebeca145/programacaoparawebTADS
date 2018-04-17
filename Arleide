@@ -1,1 +1,325 @@
 
+
+
+
+<!DOCTYPE html PUBLIC " ">
+<html xmlns="http://www.">
+<head>
+<meta http-equiv="Content-Language" content="pt-br" />
+<title>Unidesc Materiais de Construção</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+<meta name="title" content="Unidesc Materiais de Construção" />
+<meta name="description" content="Unidesc Materiais de Construção" />
+<meta name="keywords" content="Unidesc Materiais de Construção
+<meta name="Language" content="pt-br" />
+<meta name="author" content="Elus Websites" />
+<meta name="webmaster" content="Elus Websites" />
+<meta name="ROBOTS" content="ALL" />
+<meta HTTP-EQUIV="Reply-to" content="tecnologodas@gmail.com.br" />
+<base href="http://www.unidescmateriasdecontrucao.com.br" />
+<meta property="og:title" content="Unidesc Materiais de Construção" />
+<meta property="og:description" content="Unidesc Materiais de Construção" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.unidescmateriasdecontrucao.com.br" />
+<meta property="og:image" content="/imagem.png" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<link rel="icon" href="img/.png" />
+
+<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+<link rel="stylesheet" href="css/stdicons.css" type="text/css" />
+<link rel="stylesheet" href="css/standard.css" type="text/css" />
+
+<link rel="stylesheet" href="css/theme.css" type="text/css" />
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/ie8/themeIE8.css" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript" src="js/modernizr.custom.81168.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</head>
+
+<body><section class="access">
+	<div class="row">
+		<div class="column all-hidden small-12 small-right">
+			<div class="links">
+				<!--<div class="link"><a href="http://www.unidescmateriasdecontrucao.com.br/" title="Acesso Lojista (antigo)" target="_blank">Acesso Lojista (antigo)</a></div>-->
+                		<div class="link"><a href="http://index.php" title="Acesso Lojista" target="_blank">Acesso Lojista</a></div>
+				<div class="link"><a href="http:///login_consumidor.php" title="Acesso Consumidor" target="_blank">Acesso Consumidor</a></div>
+			</div>
+		</div>
+	</div>
+</section>
+<header class="header">
+	<div class="row">
+		<div class="column all-12 small-6 medium-5 large-3">
+			<figure class="logo">
+				<a href="/" title="Unidesc Materiais de Construção">
+					<img src="img/site.png" alt="Unidesc Materiais de Construção" />
+				</a>
+			</figure>
+		</div>
+		<div class="column all-12 small-hidden ie8_hidden">
+			<div class="top_menu_btn">
+				<a class="mob_btn">Menu</a>
+			</div>
+		</div>
+		<div class="column all-12 small-6 medium-7 large-9" style="position: relative;">
+			<nav class="top_menu">
+				<div class="link"><a href="home" title="Home" class="btn">Home</a></div><!--
+				--><div class="link"><a href="empresa" title="A Unidesc]" class="btn">A Unidesc</a></div><!--
+				--><div class="link"><a href="ambientes" title="Ambientes" class="btn">Materiais</a></div><!--
+				--><div class="link sub">
+					<a title="Contato" class="btn">Contato</a>
+					<div class="submenu">
+						<div class="link"><a href="contato/trabalhe-conosco" title="Trabalhe conosco">Trabalhe conosco</a></div><!--
+						--><div class="link"><a href="contato/mensagem" title="Mande sua mensagem">Mande sua mensagem</a></div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.banners .slides').responsiveSlides({
+		auto: true,             // Boolean: Animate automatically, true or false
+		speed: 500,            // Integer: Speed of the transition, in milliseconds
+		timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
+		pager: true,           // Boolean: Show pager, true or false
+		nav: false,             // Boolean: Show navigation, true or false
+		random: false,          // Boolean: Randomize the order of the slides, true or false
+		pause: false,           // Boolean: Pause on hover, true or false
+		pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+		prevText: "Previous",   // String: Text for the "previous" button
+		nextText: "Next",       // String: Text for the "next" button
+		maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+		navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+		manualControls: $('.banners .pager'),     // Selector: Declare custom pager navigation
+		namespace: "banner",   // String: Change the default namespace used
+		after: function(){},   // Function: After callback
+		before: function(){
+			var $a = $('.banners .pager a.active');
+			if ($('.banners .pager a').last().hasClass('active')) {
+				$a.removeClass('active');
+				$('.banners .pager a').first().addClass('active');
+			}
+			else {
+				$a.removeClass('active');
+				$a.next('a').addClass('active');
+			}
+		}     // Function: Before callback
+	});
+	$('.banners .pager a').click(function(){
+		if (!$(this).hasClass('active')) {
+			$(this).addClass('active').siblings().removeClass('active');
+		}
+	});
+});
+</script>
+<main id="home">
+	<div class="banners">
+		<div class="row">
+			<div class="column all-12" style="position: relative;">
+				<div class="row slides">
+											<div class="slide">
+							<a  class="link">
+								<div class="image" style="background-image: url('uploads/img/banner_thumb_d30adb4155.jpg');"></div>
+							</a>
+						</div>
+											<div class="slide">
+							<a  class="link">
+								<div class="image" style="background-image: url('uploads/img/banner_thumb_2bbefe9024.jpg');"></div>
+							</a>
+						</div>
+											<div class="slide">
+							<a  class="link">
+								<div class="image" style="background-image: url('uploads/img/banner_thumb_1e87d0feb6.jpg');"></div>
+							</a>
+						</div>
+									</div>
+				<a class="selo" href="empresa#garantia">
+					<img src="img/selos_cinza.png" alt="" />
+				</a>
+			</div>
+			<div class="column all-12">
+				<div class="pager">
+											<a class="opt banner1_s1 active"></a>
+											<a class="opt banner1_s2"></a>
+											<a class="opt banner1_s3"></a>
+									</div>
+			</div>
+		</div>
+	</div>
+	<section class="environments">
+		<div class="row">
+								<div class="column all-6 small-6 medium-3">
+						<div class="environment">
+							<a href="ambientes/PARAFUSOS" style="background-image: url('img/icone_PARAFUSOS.jpg'); background-color: #1C7199;">
+								<div class="PARAFUSOS">
+									<div class="tb">
+									<span style="font-size: 16px; font-size: 1.6rem; padding: 6px 0;">PARAFUSOS</span>									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+								<div class="column all-6 small-6 medium-3">
+						<div class="environment">
+							<a href="ambientes/MAQUINAS" style="background-image: url('img/icone_dormitorios.jpg'); background-color: #1C7199;">
+								<div class="name MAQUINAS">
+									<div class="tb">
+									<span style="font-size: 16px; font-size: 1.6rem; padding: 6px 0;">MAQUINAS</span>									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+								<div class="column all-6 small-6 medium-3">
+						<div class="environment">
+							<a href="ambientes/PROMOÇÕES" style="background-image: url('img/icone_salas.jpg'); background-color: #1C7199;">
+								<div class="name PROMOÇÕES">
+									<div class="tb">
+									<span style="font-size: 16px; font-size: 1.6rem; padding: 6px 0;">PROMOÇÕES</span>									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+								<div class="column all-6 small-6 medium-3">
+						<div class="environment">
+							<a href="ambientes/MATERIAIS DE CONSTRUÇÃO" style="background-image: url('img/icone_MATERIAIS_DE_CONTRUÇÃO.jpg'); background-color: #1C7199;">
+								<div class="name MATERIAS DE CONSTRUÇÃO">
+									<div class="tb">
+									<span style="font-size: 12px; font-size: 1.2rem; padding: 8px 0 9px;">MATERIAS DE CONSTRUÇÃO</span>									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					</div>
+	</section>
+	<div class="featured">
+		<div class="row">
+			<div class="column all-12 medium-6">
+				<div class="virtual_menu feature">
+					<div class="backgrounds">
+						<div class="row">
+							<div class="column all-6"><div class="back back1"></div></div>
+							<div class="column all-6"><div class="back back2"></div></div>
+							<div class="column all-6"><div class="back back3"></div></div>
+							<div class="column all-6"><div class="back back4"></div></div>
+						</div>
+					</div>
+					<div class="link"><a class="name" href="catalogo_(colocar).pdf" target="_blank"><span>Catálogo Virtual</span></a></div>
+				</div>
+			</div>
+			<div class="column all-12 medium-6">
+				<div class="campaign feature">
+					<div class="backgrounds">
+						<div class="row">
+							<div class="column all-6"><div class="back back1"></div></div>
+							<div class="column all-6"><div class="back back2"></div></div>
+							<div class="column all-6"><div class="back back3"></div></div>
+							<div class="column all-6"><div class="back back4"></div></div>
+						</div>
+					</div>
+					<div class="link"><a href="COLOCAR ALGUMA COISA" class="name"><span> COLOCAR ALGUMA COISA</span></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom_banner">
+		<div class="row">
+			<div class="image">
+				<a class="link" href="impressione"><img src="img/impressione_home.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="newsletter">
+		<div class="row">
+			<div class="newsletter_form">
+				<form method="POST" action="home/send#response">
+					<div class="title">Newsletter</div>
+					<div class="description">Receba as novidades da Unidesc Materiais de Construção</div>
+					<div class="field">
+						<input type="email" name="email" placeholder="E-mail" />
+						<input type="submit" class="btn submit" name="submit" value="Cadastrar" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</main>
+﻿<section class="access ie8_hidden">
+	<div class="row">
+		<div class="column all-12 small-hidden">
+			<div class="links">
+                <div class="link"><a href="http:///index.php" title="Acesso Lojista" target="_blank">Acesso Lojista</a></div>
+		<div class="link"><a href="http://unidescmateriasdecontrucao/unidesc/login_consumidor.php" title="Acesso Consumidor" target="_blank">Acesso Consumidor</a></div>
+			</div>
+		</div>
+	</div>
+</section>
+<header class="footer ie8_hidden">
+	<div class="row">
+		<div class="column all-12 small-hidden" style="position: relative;">
+			<nav class="top_menu">
+				<div class="link"><a href="home" title="Home" class="btn">Home</a></div><!--
+				--><div class="link"><a href="empresa" title="A Unidesc" class="btn">A Unidesc</a></div><!--
+				--><div class="link"><a href="ambientes" title="Ambientes" class="btn">Materiais</a></div><!--
+				--><div class="link"><a href="revendas" title="Revendas" class="btn">Revendas</a></div><!--
+				<div class="link"><a href="gestores" title="Gestores" class="btn">Gestores</a></div>--><!--
+				--><div class="link sub">
+					<a title="Contato" class="btn active">Contato</a>
+					<div class="submenu">
+						<div class="link"><a href="contato/trabalhe-conosco" title="Trabalhe conosco">Trabalhe conosco</a></div><!--
+						--><div class="link"><a href="contato/revendedor" title="Seja nosso revendedor">Seja nosso revendor</a></div><!--
+						--><div class="link"><a href="contato/profissionais" title="Para profissionais">Para profissionais</a></div><!--
+						--><div class="link"><a href="contato/mensagem" title="Mande sua mensagem">Mande sua mensagem</a></div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="column all-12 small-hidden">
+			<div class="top_menu_btn">
+				<a class="mob_btn">Menu</a>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="row" style="margin-top:-10px;">
+	<footer>
+		<div class="phone">
+			<a href="tel:0000-0000" title="Primeiro telefone">(00) TELEFONE</a>
+			<a href="https://www.facebook.com/Unidesc Materiais de Construção" class="fb_page" title="Visite nossa Fan Page" target="_blank"><img src="img/facebook.png" alt="Fan Page" /></a>
+		</div>
+		<address class="address"> ENDEREÇO | GO | CEP  | CIDADE OCIDENTAL | GO</address>
+		<div class="copyright">
+			Copyright © 2018 Unidesc | Todos os direitos reservados.
+		</div>
+	</footer>
+</div>
+<script type="text/javascript" src="js/placeholders.min.js"></script>
+<script type="text/javascript" src="js/custom-form-elements.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript">
+	var page="home";	$(document).ready(function(){$('.top_menu > .link a[href='+page+']').addClass('active');});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61114001-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
