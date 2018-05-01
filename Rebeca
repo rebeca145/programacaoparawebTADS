@@ -1,1 +1,62 @@
+<body>
+  <h1>Silva Matcon</h1>
+h2> IMAGINA LÁ EM CASA! </h2>
+    <p>(<em> Saiba mais! </em>) Com opções de 310 a 5.000 litros,<br><br/> as caixas d'Água Tigre são uma ótima escolha:<br><br/> duráveis e fáceis de instalar.</p>
+    <ul>
+      <li>Parceiros</li>
+      <li>Sobre</li>
+      <li>Produtos</li>
+      <li>Contatos</li>
+    </ul>
+    <h2>Media</h2>
+    <img src="http://localhost/codigo/foto/foto%20home.jpg"/>
+  </div>
+
+<h3>PARCEIROS</h3>
+    <p>Parceiria(<em> Fornecedores </em>) Bons fornecedores de materiais de construção estão aqui oferecendo produtos com o melhor preço e com qualidade sem igual.
+<strong>Loja de materiais de construção</strong>.<br /><br /> Esse é um segmento que tem grande potencial e muita gente tem resolvido investir e trabalhar pesado nele.</p>
+    <h3>Media</h3>
+    <img src="http://localhost/codigo/parceiros/PARCEIROS.jpg"/>
+  </div>
+
+  <div id="SOBRE">
+    <h4>Sobre a Silva Matcon</h4>
+<p>(<em> MISSÃO </em>)Primamos por padronização de normas e procedimentos;<br><br/>
+Proporcionamos oportunidades de crescimento profissional a todos os nossos colaboradores;<br><br/>
+Priorizamos qualidade e agilidade na prestação dos nossos serviços dos nossos clientes internos,externos,fornecedores e parceiros. </p>
+<p>(<em> VISÃO </em>)Ser reconhecida por nossos clientes,fornecedores e colaboradores, como a melhor loja de materiais para Construção de Goiás. </p>
+<p>(<em> VALORES </em>)Acreditar que sempre podemos fazer melhor e diferente do que foi feito antes;<br><br/>
+Valorizar as pessoas, acreditando no desenvolvimento contínuo, tanto profissional quanto pessoal;<br<br/>
+Primar pela idoneidade da empresa e mater a credibilidade junto aos clientes, fornecedores e colaboradores. </p>
+
+<h5>PRODUTOS</h5>
+    <p> Produtos (<em> Tigre </em>) Para realizar a sua construção é necessário garantir materiais básicos de qualidade, </strong>para garantir versatilidade e eficácia nas suas reformas.<br><br/> O primeiro passo para que sua casa saia do seu jeito.</p>
+    <h4>Materiais para Construção</h4>
+    <ul>
+      <li>Joelho Soldável</li>
+      <li>Caixa de Gordura</li>
+      <li>Rolo de pintura</li>
+      <li>Torneira Jardim Cromada</li>
+    </ul>
+ <div id="media">
+    <h5>Media</h5>
+    <img src="http://localhost/codigo/produtos/PRODUTOS.jpg"/>
+  </div>
+
+<h6>Contatos</h6>
+    <ul>
+      <li>Nome</li>
+      <li>E-mail</li>
+      <li>Telefone</li>
+      <li>Telefone2</li>
+      <li>Cidade</li>
+      <li>Mensagem (opcional)</li>
+    </ul>
+    <h6>Localização</h6>
+    <p> BR-040 KM-16, s/n - Jardim Flamboyant, Luziânia - GO, 72852-580 </p>
+<h6>Media</h6>
+    <img src="http://localhost/codigo/contatos/CONTATOS.jpg"/>
+    <img src="https://goo.gl/maps/GjsxCGe1BjK2"/>
+  </div>
+</body>
 
